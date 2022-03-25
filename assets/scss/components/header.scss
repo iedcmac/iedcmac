@@ -1,0 +1,83 @@
+header{
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px 0 rgba(27, 24, 24, 0.2);
+    @media screen and (max-width: 575px){
+            .container{
+                padding: 0px 15px !important;
+            }
+        }
+    .header-top{
+        background-color: #151414;
+        
+        .contact-det{
+            ul{
+                li{
+                    float: left;
+                    padding: 10px;
+                    color: #CCC;
+                    i{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        .social-link{
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    padding: 10px;
+                     color: #CCC;
+                }
+            }
+        }
+    }
+    .header-nav{
+        .logo{
+            padding: 10px;
+            @media screen and (max-width: 888px){
+                img{
+                    width: 280px;
+                }
+            }
+        }
+        .nave{
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    padding: 28px;
+                    font-family: $mouse-300;
+                    font-size: .95rem;
+                    font-weight: 600;
+                    @media screen and (max-width: 888px){
+                        padding: 28px 15px;
+                    }
+                }
+                @media screen and (max-width: 767px){
+                    float: none;
+                    li{
+                        float: none;
+                        padding: 10px;
+                        border-bottom: 1px solid #CCC;
+                    }
+                }
+            }
+        }
+        .small-menu{
+            float: right;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #CCC;
+            font-size: 1.7rem;
+        }
+    }
+    
+}
+.scroll-to-fixed-fixed{
+    background-color: #FFF;
+    box-shadow: 5px 5px 5px 0 rgba(27, 24, 24, 0.2);
+}

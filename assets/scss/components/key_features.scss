@@ -1,0 +1,35 @@
+.key-features{
+    @include big-padding();
+    .key-cover{
+        text-align: center;
+       
+        img{
+            
+        }
+        h6{
+            font-size: 1.3rem;
+            color: #444;
+            font-family: $mouse-300;
+        }
+        p{
+            font-size: .9rem;
+        }
+    }
+    .conclus{
+        padding: 20px;
+        .conbox{
+            text-align: center;
+            margin-top: 40px;
+            h2{
+                font-family: $mouse-300;
+                font-size: 1.6rem;
+                font-weight: 600;
+            }
+            .btn{
+                box-shadow: none;
+                margin-top: 20px;
+                border-radius: 50px;
+            }
+        }
+    }
+}

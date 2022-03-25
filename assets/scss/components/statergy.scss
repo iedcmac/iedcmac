@@ -1,0 +1,29 @@
+.marketing-statergy{
+    background-color: #fcb03b;
+    .image{
+        text-align: right;
+    }
+    @include big-padding();
+    .image{
+        max-width: 400px;
+        text-align: right;
+        float: right;
+    }
+    .detail{
+        @media screen and (max-width: 767px){
+            padding-top: 30px;
+        }
+        color: #FFF;
+        p{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        ol{
+            li{
+                list-style:lower-alpha;
+                font-size: .8rem;
+                padding: 5px;
+            }
+        }
+    }
+}

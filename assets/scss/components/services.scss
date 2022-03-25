@@ -1,0 +1,16 @@
+.our-services{
+    @include big-padding();
+    .serv-det{
+        padding: 20px;
+        text-align: center;
+        p{
+            font-size: .85rem;
+        }
+        img{
+            margin-bottom: 20px;
+        }
+        h5{
+            margin-bottom: 20px;
+        }
+    }
+}
