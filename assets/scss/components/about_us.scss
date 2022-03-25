@@ -1,0 +1,29 @@
+.home-about{
+    
+    height: 450px;
+    @media screen and (max-width: 767px){
+        height: auto;
+    }
+    overflow: hidden;
+    .adout-det{
+        bakground-image: url("../images/slider_demo.jpg");
+        height: 100%;
+        padding: big-padding();
+        .layy{ 
+            background: #f9f9f9; 
+            height: 100%;
+            color: #222;
+            padding: 40px;
+        }
+        b{
+            font-size: 2rem;
+            
+        }
+        p{
+           text-align: justify;
+           text-indent: 25px; 
+           margin-top: 25px;
+            font-size: .9rem;
+        }
+    }
+}
